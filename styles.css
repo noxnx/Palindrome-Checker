@@ -1,0 +1,49 @@
+body {
+    font-family: baloo bhaijaan;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #heading{ 
+    color: orange;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #text-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 10px;
+  }
+  
+  #check-btn {
+    display: inline;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  #info-box {
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+  }
+  
+  #result {
+    display: none;
+  }
